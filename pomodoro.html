@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pomodoro.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <section class="button">
+        <div id="tempo"><h1 id="cont">25:00</h1></div>  
+        <center><table cellspacing = 10px></center> 
+             <tr>
+                <td id="bstart"><button onclick="start()">Start</button></td>
+                <td id="bpause"><button onclick="pause()">Pause</button></td>
+                <td id="breset"><button onclick="reset()">Reset</button></td>
+                <td id="mudar"><button onclick="intervalo_curto()">Intervalo</button></td>
+            </tr>
+            
+        </table>
+    </section>
+   <audio id="audio"><source src="alert.mp3"></audio>
+   <script src="pomodoro.js"></script>
+</div> 
+</body>
+</html>

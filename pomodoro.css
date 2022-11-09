@@ -1,0 +1,35 @@
+body {
+    background: rgba(0, 0, 0, 0.966);
+    color: rgba(255, 255, 255, 0.753);
+}
+
+button{
+    font-size: 50px;
+    border-radius: 11px;
+   
+}
+
+#bstart button{
+ background-color: rgba(0, 128, 0, 0.589);
+ color: rgb(255, 255, 255);
+}  
+
+#bpause button{
+    background-color: rgba(129, 125, 173, 0.767);
+    color:white;
+}  
+
+#breset button{
+    background-color: rgba(255, 0, 0, 0.589);
+    color: white;
+}  
+
+#mudar button{
+    background-color: rgba(255, 255, 0, 0.658);
+    color: white;
+}
+    
+#cont{
+    text-align: center;
+    font-size: 10rem;
+}

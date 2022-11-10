@@ -2,11 +2,10 @@ body {
     background: rgba(0, 0, 0, 0.966);
     color: rgba(255, 255, 255, 0.753);
 }
-
+/*estilização dos botões */
 button{
     font-size: 50px;
     border-radius: 11px;
-   
 }
 
 #bstart button{
